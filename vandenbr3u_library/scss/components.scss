@@ -57,7 +57,7 @@
   }
 }
 
-@media screen and (min-width: 60em){
+@media screen and (min-width: 70em){
   .navbar{
     padding-top: 12px;
     padding-bottom: 15px;
@@ -79,17 +79,17 @@
   }
 }
 
-@media screen and (max-width: 60em){
+@media screen and (max-width: 70em){
 .navbar{
   &::before{
     content: "";
     display: inline-block;
     background-image: $navbarImage;
     background-repeat: no-repeat;
-    background-size: 50px;
+    background-size: 100px;
     cursor: pointer;
     width: 100%;
-    height: 50px;
+    height: 100px;
   }
   &:hover{
     li{

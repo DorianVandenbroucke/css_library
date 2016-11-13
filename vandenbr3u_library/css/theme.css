@@ -12,8 +12,11 @@
 body {
   color: #454545;
   font-family: "Lato";
-  font-size: 1em;
+  font-size: 2em;
   margin-bottom: 100px; }
+  @media screen and (min-width: 70em) {
+    body {
+      font-size: 1em; } }
 
 div {
   margin: 5px; }
@@ -112,8 +115,10 @@ mark {
   font-weight: normal; }
 
 p {
-  margin: 10px 0;
-  text-align: justify; }
+  margin: 10px 0; }
+  @media screen and (min-width: 70em) {
+    p {
+      text-align: justify; } }
   p.text-indent {
     text-indent: 50px; }
 
@@ -299,7 +304,7 @@ button, .btn, .jumbotron button, .blue-btn, .green-btn, .yellow-btn {
     .navbar li a.disabled:hover {
       color: #3fc6ff; }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 70em) {
   .navbar {
     padding-top: 12px;
     padding-bottom: 15px; }
@@ -313,16 +318,16 @@ button, .btn, .jumbotron button, .blue-btn, .green-btn, .yellow-btn {
           border-bottom: 3px solid #d9db00; }
         .navbar li a.disabled:hover {
           border: none; } }
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 70em) {
   .navbar::before {
     content: "";
     display: inline-block;
     background-image: url("../components/images/menu_2.png");
     background-repeat: no-repeat;
-    background-size: 50px;
+    background-size: 100px;
     cursor: pointer;
     width: 100%;
-    height: 50px; }
+    height: 100px; }
   .navbar:hover li {
     display: block; }
   .navbar li {

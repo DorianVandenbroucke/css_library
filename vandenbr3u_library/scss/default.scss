@@ -2,8 +2,11 @@
 body{
 	color: $fontColor;
 	font-family: $fontFamily;
-	font-size: 1em;
+	font-size: 2em;
 	margin-bottom: 100px;
+	@media screen and (min-width: 70em){
+		font-size: 1em;
+	}
 }
 
 div{
@@ -131,7 +134,9 @@ mark{
 
 p{
 	margin: 10px 0;
-	text-align: justify;
+	@media screen and (min-width: 70em){
+		text-align: justify;
+	}
 	&.text-indent{
 		text-indent: 50px;
 	}
