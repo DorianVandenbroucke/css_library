@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>DÃ©monstration librairie CSS</title>
+		<title>Démonstration librairie CSS</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="vandenbr3u_library/css/theme.css" />
+		<style>
+
+      .test_grille{
+        width: 100%;
+      }
+          .test_grille div{
+         background-color: #0098d8;
+        border: 1px solid #000;
+        box-sizing: border-box;
+        height: 100px;
+       }
+	   </style>
 	</head>
 
 <body class="grid_flex">
@@ -246,7 +258,7 @@ Lorem ipsum &lt;q&gt;Lorem ipsum&lt;/q&gt;
 						<pre class="column_15">&lt;div class=&quot;<span style="color: #d20101">alert</span>&quot;&gt;&lt;strong&gt;Default !&lt;/strong&gt; Ceci est une alerte par d&eacute;faut&lt;/div&gt;</pre>
 					</div>
 					<div class="row">
-						<div class="column_15 alert"><strong>Default !</strong> Ceci est une alerte par dÃ©faut</div>
+						<div class="column_15 alert"><strong>Default !</strong> Ceci est une alerte par défaut</div>
 					</div>
 					<div class="row">
 						<pre class="column_15">&lt;div class=&quot;<span style="color: #d20101">success_alert</span>&quot;&gt;&lt;strong&gt;Lorem ipsum !&lt;/strong&gt; Lorem ipsum&lt;/div&gt;
@@ -362,6 +374,54 @@ Lorem ipsum &lt;q&gt;Lorem ipsum&lt;/q&gt;
 						</ul>
 					</div>
 				</section>
+				
+				<section class="test_grille">
+					<div class="row page_header">
+						<h1 class="column_15">Les grilles</h1>
+					</div>
+    <section class="grid_float">
+      <section class="row">
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+      </section>
+      <section class="line">
+        <div class="column_2"></div>
+        <div class="column_3"></div>
+        <div class="offset_2 column_1"></div>
+      </section>
+      <section class="line">
+        <div class="offset_5 column_2"></div>
+        <div class="column_1"></div>
+      </section>
+    </section>
+    <section class="grid_flex">
+      <section class="row">
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+        <div class="column_1"></div>
+      </section>
+      <section class="line">
+        <div class="column_2"></div>
+        <div class="column_3"></div>
+        <div class="offset_2 column_1"></div>
+      </section>
+      <section class="line">
+        <div class="offset_5 column_2"></div>
+        <div class="column_1"></div>
+      </section>
+    </section>
+	</section>
 
 	</section>
 
